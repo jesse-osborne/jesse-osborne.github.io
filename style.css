@@ -1,0 +1,66 @@
+body
+{
+    font-family: Noto Sans, Roboto, Arial, Helvetica;
+    background-color: hsl(200, 5%, 10%);
+    color: hsl(200, 20%, 80%);
+    width: 50em;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a
+{
+    color: hsl(200, 90%, 50%);
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+}
+
+a:hover, a:active
+{
+  text-decoration: underline;
+}
+
+h1, h2, b
+{
+    font-weight: bold;
+    color: hsl(200, 10%, 80%);
+}
+
+p
+{
+    font-size: 1em;
+}
+
+h1
+{
+    font-size: 2em;
+}
+
+h2
+{
+    font-size: 1.5em;
+}
+
+@media (prefers-color-scheme: light)
+{
+    body
+    {
+        background-color: hsl(200, 5%, 95%);
+        color: hsl(200, 20%, 20%);
+    }
+
+    a
+    {
+        color: hsl(200, 90%, 50%);
+    }
+
+    h1, h2, b
+    {
+        font-weight: bold;
+        color: hsl(200, 10%, 20%);
+    }
+}
