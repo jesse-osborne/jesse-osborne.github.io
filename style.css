@@ -20,7 +20,7 @@ a:hover, a:active {
     text-decoration: underline;
 }
 
-h1, h2, b {
+h1, h2 {
     font-weight: bold;
     color: hsl(220, 10%, 90%);
 }
