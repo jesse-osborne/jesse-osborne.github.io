@@ -62,7 +62,10 @@ h2 {
 @media (max-width: 767px) {
     .image {
         float: none;
+        align: center;
         margin: 1em;
-        width: calc(100% - 2em);
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
     }
 }
